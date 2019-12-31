@@ -1,0 +1,16 @@
+# General.
+title: "TidyBlocks"
+year: 2020
+repo: https://github.com/tidyblocks/docs-template/
+
+# Jekyll settings.
+repository: <USERNAME>/<PROJECT>
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: "page"
+kramdown:
+  toc_levels: "2"
+exclude:
+- "README.md"
